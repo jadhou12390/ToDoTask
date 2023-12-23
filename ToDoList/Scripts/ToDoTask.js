@@ -67,15 +67,15 @@ function update_task(task_id) {
                     console.log(data.success);
                     if (data.success) {
                         var newRow = "<tr>" +
-                            "<td><input type='text' id='task_id_" + data.id + "' name='task_id' value='" + data.id + "' class='form-control hidden' readonly /></td>" +
-                            "<td><input type='text' id='task_name_" + data.id + "' name='task_name' value='" + txt_task + "' class='form-control' /></td>" +
-                            "<td><input type='checkbox' id='check_task_" + data.id + "' " + (data.isCompleted ? 'checked' : '') + " /></td>" +
+                            "<td><input type='text' id='user_id_" + data.id + "' name='userr=_id' value='" + data.id + "' class='form-control hidden' readonly /></td>" +
+                            "<td><input type='text' id='username_" + data.id + "' name='username' value='" + data.added_username + "' class='form-control' /></td>" +
+                            "<td><td><input type='password' id='passsword_"+data.added_password+"' name='password' class='form-control' />" +
                             "<td>" +
                             "<div class='btn-group'>" +
-                            "<button class='btn btn-upd btn-sm' onclick='update_task(" + data.id + ");'>" +
+                            "<button class='btn btn-upd btn-sm' onclick='update_user(" + data.id + ");'>" +
                             "<i class='fas fa-edit'></i>" +
                             "</button>" +
-                            "<button class='btn btn-danger btn-sm ml-2' onclick='remove_task(" + data.id + ");' style='color: white; background-color: #dc3545;'>" +
+                            "<button class='btn btn-danger btn-sm ml-2' onclick='remove_user(" + data.id + ");' style='color: white; background-color: #dc3545;'>" +
                             "<i class='fas fa-trash'></i>" +
                             "</button>" +
                             "</div>" +

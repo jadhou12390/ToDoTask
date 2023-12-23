@@ -132,6 +132,7 @@
     <Compile Include="Controllers\ListController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ToDoListController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -225,6 +226,7 @@
     <Content Include="Scripts\Login.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\ToDoTask.js" />
+    <Content Include="Scripts\user.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -242,6 +244,7 @@
     <Content Include="Views\ToDoList\ToDoListView.cshtml" />
     <Content Include="Views\Login\LoginView.cshtml" />
     <Content Include="Views\List\ListView.cshtml" />
+    <Content Include="Views\User\UsersView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
